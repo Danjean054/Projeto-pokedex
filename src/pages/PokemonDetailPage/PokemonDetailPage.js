@@ -3,7 +3,7 @@ import { MainContainer } from "./pokemonDetailPageStyle";
 
 const PokemonDetailPage = ({ pokeDetail }) => {
   const [pokemon, setPokemon] = useState({});
-  console.log(pokemon);
+  
 
   return (
     <MainContainer>
